@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Abby Feyrer
+Credit: None
 
 Assignment:
 
@@ -36,3 +36,12 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+import string
+txt=input("Please enter a string of text (the bigger the better): ")
+print('The distribution of characters in "'+txt+'" is: ')
+if txt.count("a")<0:
+    q=list(range(1, txt.count("a")))
+    for x in q:
+        print("a", end=" ")
+        
+
