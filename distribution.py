@@ -39,7 +39,41 @@ Notice about this example:
 import string
 txt=input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "'+txt+'" is: ')
-if txt.count("a")<0:
+
+lst=list(txt)
+print(sorted(lst))
+a=txt.count("a")
+b=txt.count("b")
+c=txt.count("c")
+d=txt.count("d")
+e=txt.count("e")
+f=txt.count("f")
+g=txt.count("g")
+h=txt.count("h")
+i=txt.count("i")
+jk=txt.count("j")
+k=txt.count("k")
+l=txt.count("l")
+m=txt.count("m")
+n=txt.count("n")
+o=txt.count("o")
+p=txt.count("p")
+q=txt.count("q")
+r=txt.count("r")
+s=txt.count("s")
+t=txt.count("t")
+u=txt.count("u")
+v=txt.count("v")
+w=txt.count("w")
+x=txt.count("x")
+y=txt.count("y")
+z=txt.count("z")
+
+thing=sorted([a,b,c,d,e,f,g,h,i,jk,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z])
+print(thing)
+
+
+if a<0:
     q=list(range(1, txt.count("a")))
     for x in q:
         print("a", end=" ")
