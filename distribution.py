@@ -69,8 +69,12 @@ x=txt.count("x")
 y=txt.count("y")
 z=txt.count("z")
 
-thing=sorted([a,b,c,d,e,f,g,h,i,jk,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z])
-print(thing)
+abc=list(string.ascii_lowercase)
+
+thing=([a,b,c,d,e,f,g,h,i,jk,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z])
+thing=thing[::-1]
+thing=zip(abc, thing)
+print(list(thing))
 
 
 if a<0:
