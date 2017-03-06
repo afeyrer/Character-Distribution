@@ -37,9 +37,9 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-txt=input("Please enter a string of text (the bigger the better): ").lower()
+txt=input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "'+txt+'" is: ')
-
+txt=txt.lower()
 a=0-txt.count("a")
 b=0-txt.count("b")
 c=0-txt.count("c")
